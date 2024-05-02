@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <title>Document</title>
+    <style>
+        #main{
+            height: 100vh;
+            width: 100%;
+
+        }
+        #main img{
+            height: 100vh;
+            width: 100%;
+        }
+        .nav{
+            height: 40px;
+            width: 98.7%;
+            background-color: rgb(136, 186, 135);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 10px 0px 10px;
+        }
+        .left{
+            display: flex;
+            gap: 30px;
+            font-size: 19px;
+            margin-left: 200px;
+        }
+        a{
+            text-decoration: none;
+            padding: 5px 8px 5px 8px;
+            border-radius: 4px;
+            color: white;
+            
+        }
+        #blogy{
+            background-color: rgb(140, 165, 246); 
+        }
+        a:hover{
+            background-color: rgb(140, 165, 246);
+        }
+        h2{
+            margin-right: 200px;
+            font-size: 30px;
+            color: rgb(13, 255, 0);
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="left">
+            <a href="index.html">Home</a>
+            <a href="displayCart.jsp">Carts</a>
+            <a href="order.jsp">Serach</a>
+            <a href="" id="blogy">Blog</a>
+        </div>
+        <div class="right">
+            <h2>ecommart</h2>
+        </div>
+    </div>
+    <div id="main">
+        <img src="blog1.jpeg" alt="">
+        <img src="blog2.jpg" alt="">
+        <img src="blog3jpg.jpg" alt="">
+        <img src="blog4.jpg" alt="">
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Scroll Trigger is needed for Scroll Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Three.js is needed for 3d Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+    <!-- ControlKit is needed for Debug Panel -->
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script> 
+    <script src="blog.js"></script>
+</body>
+</html>
